@@ -1,29 +1,45 @@
-# Chess Game with Graphics and Functionality
+# Chess Game with Graphics
 
-A complete chess game built in C++ with an interactive graphical interface and functional gameplay mechanics. This project includes the source code and a prebuilt executable.
+This project is a fully functional chess game with graphics. It includes a main executable to play the game and a graphics engine to render the chessboard.
 
-## Methods to Play the Game
+## How to Use
 
-### 1. **Play the Game with the Executable**
+1. **Download both `.exe` files** (`chess_game.exe` and `chessGraphics.exe`) from the [Releases](https://github.com/nitzankoll/chess_game/releases) section of the repository.
+2. **Place both `.exe` files in the same project folder** where the source files (`.cpp` and `.h`) are located.
+   - Both `chess_game.exe` and `chessGraphics.exe` must be in the same directory for proper functionality.
+3. Run `chess_game.exe` to start the game.
 
-- Download the repository as a ZIP file or clone it using Git.
-- Navigate to the folder where the repository is located.
-- Locate the `chessgame.exe` file in the root directory (or `bin/` if used).
-- Double-click on the executable to start the game.
 
-### 2. **Build the Game from Source Code**
+## Building from Source
 
-- Open the `ChessGame.sln` solution file in **Visual Studio**.
-- Build the solution by clicking **Build** -> **Build Solution**.
-- Once the build is complete, locate the `.exe` file in the build output folder (e.g., `Debug/` or `Release/`).
-- Double-click the executable to run the game.
+If you prefer to build the project from source, follow the steps below:
 
-## How to Contribute
+1. Open the project solution file (`.sln`) in Visual Studio.
+2. Build the solution to compile `chess_game.exe` and `chessGraphics.exe`.
+3. Place both `.exe` files in the same directory as the source files.
+4. Run `chess_game.exe` to start the game.
 
-Feel free to fork the repository, open issues, and submit pull requests to improve the game.
+### Important Note:
 
----
+Even if you build the solution from source, you still need the `chessGraphics.exe` file in the project folder to run the game correctly. The `chessGraphics.exe` handles rendering the chessboard, and `chess_game.exe` relies on it for the graphical interface.
+
+## Files Included
+
+- **chess_game.exe**: The core executable for running the chess game.
+- **chessGraphics.exe**: The graphics engine for rendering the chessboard.
+- **.cpp** files: Source code for the chess game logic.
+- **.h** files: Header files containing game logic declarations.
+
+## Prerequisites
+
+- Visual Studio or another C++ compiler with Windows API support is required to build from source.
 
 ## Screenshots
 
-![Screenshot](images/image.png)
+Here is a preview of the game:
+
+![Chess Game Screenshot](images\image.png) 
+
+---
+
+Thank you for checking out this project. If you encounter any issues, feel free to open an issue on the GitHub repository page.
