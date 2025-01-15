@@ -38,7 +38,7 @@ Even if you build the solution from source, you still need the `chessGraphics.ex
 
 Here is a preview of the game:
 
-![Chess Game Screenshot](images\image.png) 
+![Chess Game Screenshot](images/image.png) 
 
 ---
 
